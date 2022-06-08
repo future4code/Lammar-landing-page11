@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.div-pai{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.div-imagem{
+    background-color:#FFF1E0;
+    width: 50vw;
+}
+
+.imagemFormulario{
+    height: 90vh;
+    margin-left: 150px;
+    margin-top: 25px;
+}
+.div-formulario{
+    background-color:#FFF1E0;
+    width: 50vw;
+    height: 93vh;
+}
+
+.div-titulo{
+    font-family: sans-serif;
+    font-size: 30px;
+    width: 400px;
+    margin-bottom: 30px;
+    text-align: start;
+    color:green;
+
+
+}
+.div-texto{
+    width: 400px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    text-align: justify;
+    margin-bottom: 30px;
+    color:gray;
+}
+
+form{
+padding: 100px 200px;
+}
+
+fieldset{
+    height: 180px;
+    width: 400px;
+    border: 3px solid rgb(4, 153, 71);
+
+}
+
+legend{
+    margin-left: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:gray;
+    font-size: 18px;
+}
+
+.caixaCardapio{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;  
+    color:gray;
+}
+
+.textoDois{
+    height: 50px;
+
+}
+.checkbox{
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.caixaFormulario{
+    height: 50px;
+    width: 400px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+::placeholder{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+}
+
+.botao{
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: none;
+    background-color: rgb(112, 189, 112);
+    width: 400px;
+}
+
+.textoBotao{
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    font-size: 16px;
+}
