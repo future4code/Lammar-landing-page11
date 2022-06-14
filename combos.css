@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.div-combos{
+    background-image: url(./img/banner-teste.png);
+    background-size:cover;
+    display: flex;
+    justify-content: start;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+
+}
+
+.pratos-combos{
+    height: 50vh;
+
+}
+
+.banner{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 100%;
+    width: 50%;
+    
+}
+
+.textos-combos{
+    display: flex;
+    flex-direction: column;
+    width: 620px;
+}
+
+.titulo-combos{
+    font-family: sans-serif;
+    color:green;
+    font-size: 40px;
+    margin-top: 50px;
+    margin-left: 100px;
+    width: 580px;
+    
+}
+
+.paragrafo-combos{
+    margin-left: 100px;
+    margin-top: 8px;
+    text-align: justify;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:gray;
+    font-size: 17px;
+}
+
+.botao-ver-todos{
+    width: 100px;
+    height: 30px;
+    margin-left: 520px;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: green;
+    border: none;
+    font-size: 13px;
+    cursor: pointer;
+}
+.banner-combos{
+    height: 80%;
+}
+
+.pratos{
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.card-pratos{
+    display: grid;
+    width: 700px;
+    height: 200px;
+    justify-content:start;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-top:5px;
+    background-color: white;
+}
+
+.disposicao-card{
+    display: flex;
+    justify-content: space-between;
+}
+.imagem-pratos{
+    width: 155px;
+    height: 155px;
+    display: grid;
+    margin-top: 20px;
+    margin-left: 20px;
+    
+}
+.div-textos{
+    width: 510px;
+    height: 140px;
+}
+.titulo-pratos{
+    margin-top: 20px;
+    margin-left: 15px;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: bolder;
+    color:rgb(10, 114, 10);
+}
+
+.texto-pratos{
+    margin-left: 15px;
+    margin-top: 8px;
+    text-align: justify;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:gray
+
+}
+
+.valor-antigo{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 15px;
+    margin-top: 15px;
+    color:gray;
+}
+
+.preco-adicionar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.valor-promocional{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 15px;
+    margin-top: 3px;
+    color:rgb(68, 133, 68);
+    font-weight: bold;
+}
+
+.botao-adicionar{
+    width: 200px;
+    height: 30px;
+    border-radius: 9px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid green;
+    background-color: white;
+    color:green;
+    cursor: pointer;
+}
+
+.texto-botao{
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 0 55px 0 25px;
+}
+
+button:hover{
+    background-color: rgb(54, 131, 54);
+    color: white;
+}
+
+@media screen and (min-device-width: 330px) and (max-device-width: 480px){
+
+    .div-combos{
+        height: auto;
+    }
+    
+    .titulo-combos{
+        font-size: 20px;
+        text-align: justify;
+        align-items: center;
+        width: 200px;
+    }
+
+    .paragrafo-combos{
+        display: none;
+    }
+
+    .banner {
+        display: none;
+    }
+
+    .imagem-pratos{
+        display: none;
+    }
+
+    .card-pratos{
+        width: 90vw;
+        padding-top: 10px 5px;
+    }
+
+    .div-textos{
+        width: 95%;
+    }
+
+    .pratos{
+        margin: 0;
+    }
+
+    .pratos-combos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100vw;
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .botao-adicionar{
+        width: 120px;
+    }
+
+    .texto-botao{
+        display: flex;
+        padding: 0 10px;
+        margin: 0;
+    
+    }
+
+    .titulo-pratos{
+        margin-top: 10px;
+        font-size: 18px;
+    }
+
+    .texto-pratos{
+        font-size: 16px;
+    }
+
+
+
+    .valor-promocional{
+        font-size: 15px;
+    }
+
+}
