@@ -5,12 +5,14 @@
 
 .div-mercado{
     width: 100%;
-    height: 99vh;
+    height: 100%;
     background-color: rgb(221, 248, 221);
     display: flex;
     flex-direction: column;
     justify-items: center;
     align-items: center;
+    overflow: hidden;
+
 }
 
 .div-tituloPagina{
@@ -32,9 +34,9 @@
 .tituloMercado{
     text-align: start;
     padding-left: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 0;
     font-family: sans-serif;
-    color:green;
+    color:rgb(35, 102, 35);
     font-size: 30px;
 }
 .div-feira{
@@ -67,8 +69,6 @@
 
 }
 
-
-
 .principal{
     display: grid;
     grid-template-columns: repeat(5,1fr);
@@ -82,6 +82,7 @@
     height: 330px;
     justify-items: center;
     margin-left: 20px;
+    margin-bottom: 30px;
     border: 2px solid gray;
     border-radius: 5px;
 
@@ -94,7 +95,7 @@
 
 }
 
-.botao-adicionar{
+.botao-adicionar-mercado{
     width: 280px;
     height: 30px;
     margin-bottom: 2px;
@@ -104,6 +105,16 @@
     color: green;
     background-color: white;
     font-size: 15px;
+    cursor: pointer;
+}
+
+.texto-adicionar-mercado{
+    display: flex;
+    justify-content: space-between;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 0 85px 0 30px;
+
 }
 
 button:hover{
@@ -114,4 +125,83 @@ button:hover{
 
 .div-outroItens{
     height: 55%;
+}
+
+@media screen and (min-device-width: 330px) and (max-device-width: 480px){
+
+    .div-mercado{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .div-tituloPagina{
+        display: flex;
+        align-items: flex-end;
+        padding-right: 40px;
+        width: 90%;
+    }
+
+    .tituloPagina{
+        font-size: 25px;
+        text-align: end;
+        padding-bottom: 20px;
+        width:auto;
+    }
+
+    .div-titulo{
+        justify-content: start;
+        margin-left: 40px;
+        padding: 5px;
+        margin-bottom: 0;
+    }
+
+    .tituloMercado{
+        font-size: 25px;
+        padding-bottom: 1px;
+        padding-top: 15px;
+    }
+
+    .principal{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;    
+    }
+
+    .card-mercado{
+        width: 250px;
+        height: 300px;
+        margin-bottom: 10px;
+        margin-left: 0;
+    }
+
+    .img-mercado{
+        width: 230px;
+        padding-top:10px;
+    
+    }
+
+    .nomeProduto{
+        font-size: 22px;
+    }
+
+    .div-preco{
+        width:220px;
+    }
+
+    .preco{
+        font-size: 20px;
+    }
+
+    .botao-adicionar-mercado{
+        width: 200px;
+    }
+
+    .texto-adicionar-mercado{
+        padding: 0 35px 0 25px;
+
+    }
 }
