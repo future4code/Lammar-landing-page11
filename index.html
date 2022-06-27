@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4Food</title>
+    <link rel="stylesheet" href="4food.css">
+    <link rel="stylesheet" type="text/css" href="style-slide-header.css">
+    <link rel="stylesheet" type="text/css" href="formulario.css">
+    <link rel="stylesheet" type="text/css" href="mercado.css">
+    <link rel="stylesheet" type="text/css" href="combos.css">
+
+</head>
+<body>
+    <header id="header">
+        <div class="head-logo">
+        <a id="logo" href=""><img id="img-logo1" src="img/4food.png" alt="Logo"></a>
+
+        <a id="logo" href=""><img id="img-logo2" src="img/logo.png" alt="Logo"></a>
+        </div>
+
+        <nav id="nav">
+          <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">Menu
+            <span id="hamburger"></span>
+          </button>
+          <ul id="menu" role="menu">
+            <li><a href="">Sobre</a></li>
+            <li><a href="/">Produtos</a></li>
+            <li><a href="/">Formulário</a></li>
+            <li><a href="/">Contato</a></li>
+          </ul>
+        </nav>
+      </header>
+  
+<!--         CARD PRINCIPAL -->
+      <div class="slider">
+        <!-- fade css -->
+        <div class="myslide">
+          <div class="txt">
+            <h1>Produtos</h1>
+            <p>Produtos de alta qualidade e orgânicos.<br>"Quem valoriza uma alimentação saudável é fã da própria vida."</p>
+          </div>
+          <img src="img/img1.jpg">
+        </div>
+        
+        <div class="myslide">
+          <div class="txt">
+            <h1>Saúde</h1>
+            <p>Ter saúde requer uma alimentação saudável.<br>"Coma Bem. Sem sair de casa."</p>
+          </div>
+          <img src="img/img2.jpg" >
+        </div>
+        
+        <div class="myslide">
+          <div class="txt">
+            <h1>Praticidade</h1>
+            <p>Facilitamos seu dia a dia, para você viver mais feliz!<br>"Primeiro você muda a alimentação, depois a alimentação muda você."</p>
+          </div>
+          <img src="img/img3.jpg">
+        </div>
+        
+        <div class="myslide">
+          <div class="txt">
+            <h1>Atendimento</h1>
+            <p>Atendimento especializado para uma melhor experiência!<br>"O seu bem-estar, vem em primeiro lugar."</p>
+          </div>
+          <img src="img/img4.jpg">
+        </div>
+        <!-- /fade css -->
+        
+        <!-- onclick js -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        
+        <div class="dotsbox" style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+          <span class="dot" onclick="currentSlide(4)"></span>
+        </div>
+        <!-- /onclick js -->
+      </div>
+
+      <script src="slide-script.js"></script>
+    
+<!--     CARD BENEFICIOS -->
+    
+      <div class="lista-beneficios">
+        <div class="beneficio">
+            <img src="img/ICON1.png" alt="">
+            <div class="texto-beneficio">
+                <h3>Sem repeteco!</h3>
+                <p>Mais de 150 pratos deliciosos disponíveis, com rotações em cada estação!</p>
+            </div>
+        </div>
+        <div class="beneficio">
+            <img src="img/ICON2.png" alt="">
+            <div class="texto-beneficio">
+                <h3>Entregas flexíveis!</h3>
+                <p>Escolha o melhor horário para receber seus pedidos na porta da sua casa!</p>
+            </div>
+        </div>
+        <div class="beneficio">
+            <img src="img/ICON3.png" alt="">
+            <div class="texto-beneficio">
+                <h3>Mais frescor na sua vida!</h3>
+                <p>Alimentos orgânicos frescos, produzidos por famílias locais!</p>
+            </div>
+        </div>
+        <div class="beneficio">
+            <img src="img/ICON4.png" alt="">
+            <div class="texto-beneficio">
+                <h3>Poupe tempo e dinheiro!</h3>
+                <p>Esqueça longas filas de mercado, estacionamento e congestionamentos!</p>
+            </div>
+        </div>
+    </div>
+  
+<!--     CARD REFERENCIAS -->
+
+    <div class="referencias">
+        <h1>Pratos e planos especiais, focados na sua saúde:</h1>
+        <div class="secao-refs">
+            <div class="card-referencia">
+                <img src="img/doctor.png" alt="" class="avatar">
+                <p>Proin sed libero enim sed faucibus turpis. At imperdiet dui accumsan sit amet nulla facilisi morbi tempus. 
+                    Ut sem nulla pharetra diam sit amet nisl.
+                    Proin sed libero enim sed faucibus turpis.Proin sed libero enim sed faucibus turpis. At imperdiet dui accumsan sit amet nulla facilisi morbi tempus. 
+                    Ut sem nulla pharetra diam sit amet nisl. </p>
+                <span class="nome">Alberto Troiano</span>
+                <h3 class="profissao">Nutrólogo</h3>
+                <div class="leia-mais">Leia Mais!</div>
+            </div>
+            <div class="card-referencia">
+                <img src="img/doctor2.png" alt="" class="avatar">
+                <p>Proin sed libero enim sed faucibus turpis. At imperdiet dui accumsan sit amet nulla facilisi morbi tempus. 
+                    Ut sem nulla pharetra diam sit amet nisl.
+                    Proin sed libero enim sed faucibus turpis.Proin sed libero enim sed faucibus turpis. At imperdiet dui accumsan sit amet nulla facilisi morbi tempus. 
+                    Ut sem nulla pharetra diam sit amet nisl. </p>
+                <span class="nome">Janete Gavira</span>
+                <h3 class="profissao">Nutricionista</h3>
+                <div class="leia-mais">Leia mais!</div>
+
+            </div>
+        </div>
+<!--         BANNER ITENS MERCADO -->
+    <div class="div-mercado">
+
+        <div class="div-tituloPagina">
+            <h2 class="tituloPagina">Receba suas compras de mercado ainda hoje sem sair de casa!</h2>
+        </div>
+
+        <div class="div-feira">
+
+<!--         CARD FEIRA -->    
+
+    <div class="div-titulo">
+                <h2 class="tituloMercado">É dia de feira!</h2>
+            </div>
+
+
+            <main class="principal">
+                <section class="card-mercado">
+                    <img class="img-mercado" src="./img/banana.png" alt="imagem de um cacho de banana com fundo amarelo">
+                    <p class="nomeProduto">Banana Caturra</p>
+                    <div class="div-preco">
+                        <p class="preco">R$ 3,00</p>
+                        <p class="preco">1kg</p>
+                    </div>
+                    
+                    <button class="botao-adicionar-mercado">
+                        <div class="texto-adicionar-mercado">
+                            <p>+</p>
+                            <p>ADICIONAR</p>
+                        </div>
+                    </button>
+                </section>
+
+                <section class="card-mercado">
+                    <img class="img-mercado" src="./img/mandioca.png" alt="imagem de quatro mandiocas com fundo laranja">
+                    <p class="nomeProduto">Mandioca</p>
+                    <div class="div-preco">
+                        <p class="preco">R$ 2,99</p>
+                        <p class="preco">1kg</p>
+                    </div> 
+                    <button class="botao-adicionar-mercado">
+                        <div class="texto-adicionar-mercado">
+                            <p>+</p>
+                            <p>ADICIONAR</p>
+                        </div>
+                    </button>               
+                </section>
+
+                <section class="card-mercado">
+                    <img class="img-mercado" src="./img/abacaxi.png" alt="imagem de um abacaxi com fundo amarelo">
+                    <p class="nomeProduto">Abacaxi Havai</p>
+                    <div class="div-preco">
+                        <p class="preco">R$ 8,00</p>
+                        <p class="preco">un</p>
+                    </div>
+                    <button class="botao-adicionar-mercado">
+                        <div class="texto-adicionar-mercado">
+                            <p>+</p>
+                            <p>ADICIONAR</p>
+                        </div>
+                    </button>              
+                </section>
+
+                <section class="card-mercado">
+                    <img class="img-mercado" src="./img/beterraba.png" alt="imagem de uma beterraba inteira e outra cortada com fundo verde">
+                    <p class="nomeProduto">Beterraba</p>
+                    <div class="div-preco">
+                        <p class="preco">R$ 2,97</p>
+                        <p class="preco">1kg</p>
+                    </div> 
+                    <button class="botao-adicionar-mercado">
+                        <div class="texto-adicionar-mercado">
+                            <p>+</p>
+                            <p>ADICIONAR</p>
+                        </div>
+                    </button>
+            
+                </section>
+
+                <section class="card-mercado">
+                    <img class="img-mercado" src="./img/melancia.png" alt="imagem de uma melancia com fundo laranja">
+                    <p class="nomeProduto">Melancia</p>
+                    <div class="div-preco">
+                        <p class="preco">R$ 2,39</p>
+                        <p class="preco">1kg</p>
+                    </div>
+                    <button class="botao-adicionar-mercado">
+                        <div class="texto-adicionar-mercado">
+                            <p>+</p>
+                            <p>ADICIONAR</p>
+                        </div>
+                    </button>
+                </section>
+        </div>
+
+    <!--         CARD MERCEARIA -->    
+
+        <div class="div-outrosItens">
+            <div class="div-titulo">
+                <h2 class="tituloMercado">Mercearia:</h2> 
+            </div>
+
+
+            <main class="principal">
+
+                <section class="card-mercado">
+                    <img class="img-mercado" src="./img/azeite.png" alt="imagem de um azeite de oliva com fundo verde">
+                    <p class="nomeProduto">Azeite de Oliva</p>
+                    <div class="div-preco">
+                        <p class="preco">R$ 24,00</p>
+                        <p class="preco">500ml</p>
+                    </div> 
+                    <button class="botao-adicionar-mercado">
+                        <div class="texto-adicionar-mercado">
+                            <p>+</p>
+                            <p>ADICIONAR</p>
+                        </div>
+                    </button>                
+                </section>
+
+                <section class="card-mercado">
+                    <img class="img-mercado" src="./img/café.png" alt="imagem de um pacote de café com fundo cinza">
+                    <p class="nomeProduto">Café</p>
+                    <div class="div-preco">
+                        <p class="preco">R$ 18,00</p>
+                        <p class="preco">500g</p>
+                    </div> 
+                    <button class="botao-adicionar-mercado">
+                        <div class="texto-adicionar-mercado">
+                            <p>+</p>
+                            <p>ADICIONAR</p>
+                        </div>
+                    </button>                
+                </section>
+
+                <section class="card-mercado">
+                    <img class="img-mercado" src="./img/sucos.png" alt="imagem de duas caixinhas de suco com fundo laranja">
+                    <p class="nomeProduto">Suco Orgânico</p>
+                    <div class="div-preco">
+                        <p class="preco">R$ 4,00</p>
+                        <p class="preco">200ml</p>
+                    </div> 
+                    <button class="botao-adicionar-mercado">
+                        <div class="texto-adicionar-mercado">
+                            <p>+</p>
+                            <p>ADICIONAR</p>
+                        </div>
+                    </button>               
+                </section>
+
+                <section class="card-mercado">
+                    <img class="img-mercado" src="./img/mel.png" alt="imagem de dois potes de mel com fundo laranja">
+                    <p class="nomeProduto">Mel puro</p>
+                    <div class="div-preco">
+                        <p class="preco">R$ 25,00</p>
+                        <p class="preco">500g</p>
+                    </div> 
+                    <button class="botao-adicionar-mercado">
+                        <div class="texto-adicionar-mercado">
+                            <p>+</p>
+                            <p>ADICIONAR</p>
+                        </div>
+                    </button>                
+                </section>
+                
+                <section class="card-mercado">
+                    <img class="img-mercado" src="./img/milk.png" alt="imagem de uma garrafa de leite com fundo amarelo">
+                    <p class="nomeProduto">Leite</p>
+                    <div class="div-preco">
+                        <p class="preco">R$ 4,80</p>
+                        <p class="preco">1 L </p>
+                    </div> 
+                    <button class="botao-adicionar-mercado">
+                        <div class="texto-adicionar-mercado">
+                            <p>+</p>
+                            <p>ADICIONAR</p>
+                        </div>
+                    </button>                
+                </section>
+
+        </div>
+
+            </main>
+
+    </div>
+
+<!--     CARD COMBOS -->
+
+    <div class="div-combos">
+        <div class="banner">
+            <div class="textos-combos">
+                <p class=titulo-combos>Combos prontos para facilitar sua escolha. </p>
+                <p class="paragrafo-combos"> Além utilizar apenas itens selecionados e mandar tudo prontinho para sua casa, nós também 
+                desenvolvemos algumas opções de combos que combinam com seu gosto. E o melhor de tudo? com preços incríveis! </p>
+                <button class="botao-ver-todos">VER TODOS</button>
+            </div>
+            
+        </div>
+
+        <div class="pratos-combos">
+            <main class="pratos">
+                <section class="card-pratos">
+                    <div class="disposicao-card">
+                        <img class="imagem-pratos" src="./img/combo-veg.png" alt="imagem com três pratos diferentes de comidas veganas.">
+                        <div class="div-textos">
+                            <h3 class="titulo-pratos">Combo vegano</h3>
+                            <p class="texto-pratos">Aqui estão nossas opções que não contém produtos de origem animal, um combo com 7 refeições 
+                                completas para você se alimentar bem a semana toda!</p>
+                            <p class="valor-antigo"><s>R$ 165,00</s></p>
+                            <div class="preco-adicionar"> 
+                                <p class="valor-promocional">R$ 150,00 (R$ 21,42/dia) </p>
+                                <button class="botao-adicionar">
+                                    <div class=texto-botao>
+                                        <p>+</p>
+                                        <p>COMPRAR</p>
+                                    </div>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="card-pratos">
+                    <div class="disposicao-card">
+                        <img class="imagem-pratos" src="./img/comida-kids.png" alt="imagem com um prato de comida infantil com desenho de um urso e um outro prato 
+                        com ovos cozidos decorados como cachorrinhos">
+                        <div class="div-textos">
+                            <h3 class="titulo-pratos">Combo kids</h3>
+                            <p class="texto-pratos">Aqui está os queridinhos das crianças, um combo com 7 refeições completas para 
+                                seu pequeno se alimentar bem a semana toda!</p>
+                            <p class="valor-antigo"><s>R$ 100,00</s></p>
+                                <div class="preco-adicionar"> 
+                                    <p class="valor-promocional">R$ 85,00 (12,00/dia)</p>
+                                    <button class="botao-adicionar">
+                                        <div class=texto-botao>
+                                            <p>+</p>
+                                            <p>COMPRAR</p>
+                                        </div>
+                                    </button>
+                                </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="card-pratos">
+                    <div class="disposicao-card">
+                        <img class="imagem-pratos" src="./img/comida-fitness.png" alt="imagem com um prato de comida com salada e frango e outro prato com salada e ovo">
+                        <div class="div-textos">
+                            <h3 class="titulo-pratos">Combo fitness</h3>
+                            <p class="texto-pratos">Nossa seleção de comidas para você que deseja ter uma alimentação mais leve, um combo com 7 
+                                refeições balanceadas para você se alimentar bem a semana toda!</p>
+                            <p class="valor-antigo"><s>R$ 190,00</s></p>
+                            <div class="preco-adicionar"> 
+                                <p class="valor-promocional">R$ 175,00 (R$ 25,00/dia)</p>
+                                <button class="botao-adicionar">
+                                    <div class=texto-botao>
+                                        <p>+</p>
+                                        <p>COMPRAR</p>
+                                    </div>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="card-pratos">
+                    <div class="disposicao-card">
+                        <img class="imagem-pratos" src="./img/comida-frutos.png" alt="imagem com três opções de pratos com frutos do mar, um com camarão, outro com poke 
+                        e o último com peixe grelhado">
+                        <div class="div-textos">
+                            <h3 class="titulo-pratos">Combo frutos do mar</h3>
+                            <p class="texto-pratos"> As delicias gastronômicas do litoral fresquinha em sua casa, em um combo com 7 refeições 
+                                completas para você se alimentar bem a semana toda!</p>
+                            <p class="valor-antigo"><s>R$ 220,00</s></p>
+                            <div class="preco-adicionar"> 
+                                <p class="valor-promocional">R$ 196,00 (28,00/dia)</p>
+                                <button class="botao-adicionar">
+                                    <div class=texto-botao>
+                                        <p>+</p>
+                                        <p>COMPRAR</p>
+                                    </div>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+            </main>
+
+
+        </div>
+    </div>
+<!--         CARD FORMULÁRIO -->
+
+    <div class="div-formulario">
+        <form action="">
+            <div class="div-titulo">
+                <h3>Comida de verdade na sua casa!</h3>
+            </div>
+            <div class="div-texto">
+                <p> Sem enrolação! Insira seus dados em nosso formulário, selecione o menu desejado e um dos nossos colaboradores entrará em contato com você
+                    em um prazo de até 24 horas.
+                </p>
+            </div>
+
+            <input placeholder="Nome Completo" class="caixaFormulario" type="text" id="nome" name="nome">
+            </h2>
+            <br>
+
+            <input placeholder="E-mail" class="caixaFormulario" type="e-mail" id="nome" name="nome">
+            </h2>
+            <br>
+
+            <input placeholder="Telefone" class="caixaFormulario" type="number" id="telefone" name="telefone">
+            </h2>
+            <br>
+
+            <input placeholder="Endereço completo" class="caixaFormulario" type="number" id="telefone" name="telefone">
+        </h2>
+        <br>
+
+            <fieldset>
+                <legend>Escolha o seu cardápio:</legend>
+
+                <div>
+                    <input class="checkbox" type="checkbox" id="Fitness" name="Fitness">
+                    <label class="caixaCardapio" for="Fitness">Fitness</label>
+                </div>
+
+                <div>
+                    <input class="checkbox" type="checkbox" id="Frutos do mar" name="Frutos do mar">
+                    <label class="caixaCardapio" for="Frutos do mar">Frutos do mar</label>
+                </div>
+
+                <div>
+                    <input class="checkbox" type="checkbox" id="Kids" name="Kids">
+                    <label class="caixaCardapio" for="kids">Kids</label>
+                </div>
+
+                <div>
+                    <input class="checkbox" type="checkbox" id="Massas" name="Massas">
+                    <label class="caixaCardapio" for="Massas">Massas</label>
+                </div>
+
+                <div>
+                    <input class="checkbox" type="checkbox" id="Vegano" name="Vegano">
+                    <label class="caixaCardapio" for="Vegano">Vegano</label>
+                </div>
+
+                <div>
+                    <input class="checkbox" type="checkbox" id="Vegetariano" name="Vegetariano">
+                    <label class="caixaCardapio" for="Vegetariano">Vegetariano</label>
+                </div>
+
+                </fieldset>                
+
+                <button class="botao" type ="submit"><h4 class="textoBotao">Solicite suas refeições</h4></button>
+            </form>
+
+    </div>
+<!--    FOOTER   -->   
+    <footer>
+        <div class="sobre-nos">
+            <h2>Sobre</h2>
+            <p class="footer-text">A 4Food nasceu de um sonho de levar comida saudável, sem complicações, de forma totalmente digital, simples e rápida. Embarque conosco nesse sonho!
+        </div>
+        <div class="lojas-footer">
+            <h2>Nossas Lojas</h2>
+            <h3>São Paulo</h3>
+                <span class="footer-text">Rua dos Girassóis, 470</span>
+            <h3>Curitiba</h3>
+                <span class="footer-text">Av. das Torres, 1890</span>
+        </div>
+        <div class="redes-sociais">
+            <h2>Redes Sociais</h2>
+            <div class="instagram">
+                <a href="http://www.instagram.com" target="_blank" rel="noopener noreferrer">
+                    <img src="img/instagram-icone-noir.png" alt="" class="icone-redes">
+                    <span class="footer-text">Instagram</span>
+                </a>
+            </div>
+            <div class="facebook">
+                <a href="http://facebook.com" target="_blank" rel="noopener noreferrer">
+                    <img src="img/facebook-icone-noir.png" alt="" class="icone-redes">
+                    <span class="footer-text">Facebook</span>
+                </a>
+            </div>
+            <div class="twitter">
+                <a href="http://www.twitter.com" target="_blank" rel="noopener noreferrer">
+                    <img src="img/icone-twitter-ronde-noire.png" alt="" class="icone-redes">
+                    <span class="footer-text">Twitter</span>
+                </a>
+            </div>
+        </div> 
+        <div class="contato">
+            <h2>Contate-nos!</h2>
+            <div class="telefone">
+                <img src="img/telefone.png" alt="" class="icone-contato"><a href="tel:+551138047266"><span class="footer-text">(11) 3804-7266</span></a>
+            </div>
+            <div class="whats">
+                <img src="img/whats.png" alt="" class="icone-contato"><a href="tel:+5502122222222"><span class="footer-text">(13) 98008-4004</span></a>
+            </div>
+            <div class="email">
+                <img src="img/email.png" alt="" class="icone-contato"><a href="mailto:4food@gmail.com?subject=Quero%20adquirir%20produtos%204food" class="email"><span class="footer-text">contato@4food.com</span></a>
+            </div>  
+        </div>
+        <div class="pagamento">
+            <h2>Formas de Pagamento</h2>
+            <img src="img/visa.png" alt="" class="icon-pagamento">
+            <img src="img/master.png" alt="" class="icon-pagamento">
+            <img src="img/amex.png" alt="" class="icon-pagamento">
+            <img src="img/pix.png" alt="" class="icon-pagamento">
+            <img src="img/boleto.png" alt="" class="icon-pagamento">
+        </div>   
+    </footer>
+</body>
+</html>

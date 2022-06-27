@@ -1,0 +1,207 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.div-mercado{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(221, 248, 221);
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    overflow: hidden;
+
+}
+
+.div-tituloPagina{
+    width: 30%;
+    align-self: flex-end;
+    padding-right: 150px;
+
+}
+.tituloPagina{
+    font-family: sans-serif;
+    color:green;
+    font-size: 30px;
+    margin-top: 30px;
+    text-align: end;
+    width: 100%;
+
+
+}
+.tituloMercado{
+    text-align: start;
+    padding-left: 20px;
+    margin-bottom: 0;
+    font-family: sans-serif;
+    color:rgb(35, 102, 35);
+    font-size: 30px;
+}
+.div-feira{
+    height: 45%;
+}
+
+.div-titulo{
+    display: flex;
+    justify-content: start;
+}
+
+
+.div-preco{
+    display: flex;
+    justify-content: space-between;
+    width:220px;
+}
+
+.nomeProduto{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    color:gray;
+
+}
+
+.preco{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 17px;
+    color:gray;
+
+}
+
+.principal{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    width: 90%;
+
+}
+
+.card-mercado{
+    display: grid;
+    width: 300px;
+    height: 330px;
+    justify-items: center;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    border: 2px solid gray;
+    border-radius: 5px;
+
+}
+
+.img-mercado{
+    width: 300px;
+    display: grid;
+    border-radius: 5px;
+
+}
+
+.botao-adicionar-mercado{
+    width: 280px;
+    height: 30px;
+    margin-bottom: 2px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 13px;
+    border: 2px solid green;
+    color: green;
+    background-color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.texto-adicionar-mercado{
+    display: flex;
+    justify-content: space-between;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 0 85px 0 30px;
+
+}
+
+button:hover{
+    background-color: green;
+    color:white;
+}
+
+
+.div-outroItens{
+    height: 55%;
+}
+
+@media screen and (min-device-width: 330px) and (max-device-width: 480px){
+
+    .div-mercado{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .div-tituloPagina{
+        display: flex;
+        align-items: flex-end;
+        padding-right: 40px;
+        width: 90%;
+    }
+
+    .tituloPagina{
+        font-size: 25px;
+        text-align: end;
+        padding-bottom: 20px;
+        width:auto;
+    }
+
+    .div-titulo{
+        justify-content: start;
+        margin-left: 40px;
+        padding: 5px;
+        margin-bottom: 0;
+    }
+
+    .tituloMercado{
+        font-size: 25px;
+        padding-bottom: 1px;
+        padding-top: 15px;
+    }
+
+    .principal{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;    
+    }
+
+    .card-mercado{
+        width: 250px;
+        height: 300px;
+        margin-bottom: 10px;
+        margin-left: 0;
+    }
+
+    .img-mercado{
+        width: 230px;
+        padding-top:10px;
+    
+    }
+
+    .nomeProduto{
+        font-size: 22px;
+    }
+
+    .div-preco{
+        width:220px;
+    }
+
+    .preco{
+        font-size: 20px;
+    }
+
+    .botao-adicionar-mercado{
+        width: 200px;
+    }
+
+    .texto-adicionar-mercado{
+        padding: 0 35px 0 25px;
+
+    }
+}
